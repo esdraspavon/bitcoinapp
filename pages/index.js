@@ -1,6 +1,6 @@
 import Master from "../components/Master";
 import Price from "../components/Price";
-import News from "../components/News";
+import NewsContainer from "../components/NewsContainer";
 import fetch from "isomorphic-unfetch";
 
 const Index = props => {
@@ -12,7 +12,7 @@ const Index = props => {
           <Price price={props.priceBitcoin} />
           <div className="col-md-8">
             <h2>Noticias sobre bitcoin</h2>
-            <News news={props.news} />
+            <NewsContainer news={props.news} />
           </div>
           <div className="col-md-4">
             <h2>Proximos eventos bitcoin</h2>
