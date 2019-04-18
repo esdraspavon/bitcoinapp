@@ -1,5 +1,4 @@
 const Price = props => {
-  console.log(props.price);
   const {
     price,
     percent_change_1h,

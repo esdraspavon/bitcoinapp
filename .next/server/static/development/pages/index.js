@@ -276,6 +276,34 @@ var Navbar = function Navbar() {
 
 /***/ }),
 
+/***/ "./components/News.js":
+/*!****************************!*\
+  !*** ./components/News.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/home/esdras/Documentos/bitcoinapp/components/News.js";
+
+
+var News = function News(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, "desde noticias");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (News);
+
+/***/ }),
+
 /***/ "./components/Price.js":
 /*!*****************************!*\
   !*** ./components/Price.js ***!
@@ -291,7 +319,6 @@ var _jsxFileName = "/home/esdras/Documentos/bitcoinapp/components/Price.js";
 
 
 var Price = function Price(props) {
-  console.log(props.price);
   var _props$price = props.price,
       price = _props$price.price,
       percent_change_1h = _props$price.percent_change_1h,
@@ -301,77 +328,77 @@ var Price = function Price(props) {
     className: "card text-white bg-success mb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, "Precio del Bitcoin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-boy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: "card-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, "Precio Actual: $ ", price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-md-flex justify-content-between",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "font-weight-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, "\xDAltima horas: "), percent_change_1h, " %"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "font-weight-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, "\xDAltima 24 horas: "), percent_change_24h, " %"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "font-weight-bold",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, "\xDAltimos 7 dias: "), percent_change_7d, " %"))));
@@ -1025,11 +1052,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Master__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Master */ "./components/Master.js");
 /* harmony import */ var _components_Price__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Price */ "./components/Price.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_News__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/News */ "./components/News.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__);
 
 
 var _jsxFileName = "/home/esdras/Documentos/bitcoinapp/pages/index.js";
+
 
 
 
@@ -1039,60 +1068,67 @@ var Index = function Index(props) {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Master__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, "Precio del bitcoin"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Price__WEBPACK_IMPORTED_MODULE_4__["default"], {
     price: props.priceBitcoin,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-md-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
-  }, "Noticias sobre bitcoin")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-4",
+  }, "Noticias sobre bitcoin"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_News__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    news: props.news,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }, "Proximos eventos bitcoin")))));
@@ -1103,26 +1139,37 @@ Index.getInitialProps =
 Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
 /*#__PURE__*/
 _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-  var price, priceBitcoin;
+  var price, news, priceBitcoin, resNews;
   return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default()("https://api.coinmarketcap.com/v2/ticker/1/");
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default()("https://api.coinmarketcap.com/v2/ticker/1/");
 
         case 2:
           price = _context.sent;
           _context.next = 5;
-          return price.json();
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default()("https://newsapi.org/v2/everything?q=bitcoin&sortBy=published&apiKey=4bacc94fabe34ced8c6b9c6a53c467e2&language=es");
 
         case 5:
+          news = _context.sent;
+          _context.next = 8;
+          return price.json();
+
+        case 8:
           priceBitcoin = _context.sent;
+          _context.next = 11;
+          return news.json();
+
+        case 11:
+          resNews = _context.sent;
           return _context.abrupt("return", {
-            priceBitcoin: priceBitcoin.data.quotes.USD
+            priceBitcoin: priceBitcoin.data.quotes.USD,
+            news: resNews.articles
           });
 
-        case 7:
+        case 13:
         case "end":
           return _context.stop();
       }
