@@ -18,7 +18,7 @@ const Master = props => {
       </Head>
 
       <Navbar />
-      {props.children}
+      <div className="container mt-4">{props.children}</div>
     </div>
   );
 };
