@@ -12,11 +12,11 @@ const Index = props => {
           <h2>Precio del bitcoin</h2>
           <Price price={props.priceBitcoin} />
           <div className="col-md-8">
-            <h2>Noticias sobre bitcoin</h2>
+            <h2 className="my-4">Noticias sobre bitcoin</h2>
             <NewsContainer news={props.news} />
           </div>
           <div className="col-md-4">
-            <h2>Proximos eventos bitcoin</h2>
+            <h2 className="my-4">Proximos eventos bitcoin</h2>
             <Events events={props.events} />
           </div>
         </div>
