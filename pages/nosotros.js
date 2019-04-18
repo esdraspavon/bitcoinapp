@@ -1,5 +1,11 @@
-const Index = () => {
-  return <p>Hola nosotros</p>;
+import Navbar from "../components/Navbar";
+
+const Nosotros = () => {
+  return (
+    <div>
+      <Navbar /> <p>Nosotros</p>
+    </div>
+  );
 };
 
-export default Index;
+export default Nosotros;
