@@ -1,10 +1,12 @@
-import Navbar from "../components/Navbar";
+import Master from "../components/Master";
 
 const Nosotros = () => {
   return (
-    <div>
-      <Navbar /> <p>Nosotros</p>
-    </div>
+    <Master>
+      <div>
+        <p>Nosotros</p>
+      </div>
+    </Master>
   );
 };
 

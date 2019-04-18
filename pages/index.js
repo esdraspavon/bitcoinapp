@@ -1,10 +1,12 @@
-import Navbar from "../components/Navbar";
+import Master from "../components/Master";
+
 const Index = () => {
   return (
-    <div>
-      <Navbar />
-      <p>Inicio</p>
-    </div>
+    <Master>
+      <div>
+        <p>Inicio</p>
+      </div>
+    </Master>
   );
 };
 
