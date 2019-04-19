@@ -8,7 +8,7 @@ module.exports = {
     };
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? "/bitcoinapp" : ""
+  assetPrefix: !debug ? "https://esdraspavon.github.io/bitcoinapp/" : ""
   /* webpack: (config, { dev }) => {
     // Perform customizations to config
 

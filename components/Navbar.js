@@ -9,12 +9,12 @@ const Navbar = () => {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link href="">
+              <Link href="/">
                 <a className="navbar-brand">Inicio</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="nosotros">
+              <Link href="/nosotros">
                 <a className="navbar-brand">Nosotros</a>
               </Link>
             </li>
