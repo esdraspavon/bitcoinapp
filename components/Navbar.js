@@ -10,7 +10,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link href="">
-                <a className="navbar-brand">Inicio "{assetPrefix}"</a>
+                <a className="navbar-brand">Inicio</a>
               </Link>
             </li>
             <li className="nav-item">
