@@ -8,8 +8,10 @@ module.exports = {
     };
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? "/bitcoinapp" : "",
-  webpack: (config, { dev }) => {
+  assetPrefix: !debug ? "/bitcoinapp" : ""
+  /* webpack: (config, { dev }) => {
+    // Perform customizations to config
+
     config.module.rules = config.module.rules.map(rule => {
       if (rule.loader === "babel-loader") {
         rule.options.cacheDirectory = false;
@@ -18,5 +20,5 @@ module.exports = {
     });
     // Important: return the modified config
     return config;
-  }
+  } */
 };

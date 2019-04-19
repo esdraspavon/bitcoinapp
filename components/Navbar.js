@@ -9,12 +9,12 @@ const Navbar = () => {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link href="/" as={process.env.BACKEND_URL + "/"}>
-                <a className="navbar-brand">Inicio</a>
+              <Link href="">
+                <a className="navbar-brand">Inicio "{assetPrefix}"</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/nosotros" as={process.env.BACKEND_URL + "/nosotros"}>
+              <Link href="nosotros">
                 <a className="navbar-brand">Nosotros</a>
               </Link>
             </li>
